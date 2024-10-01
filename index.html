@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <!-- <input type="checkbox" name="" id="toggler" /> -->
+      <label
+        for="toggler"
+        class="fas fa-bars"
+        id="toggle"
+        onclick="manageToggle()"
+      ></label>
+      <a href="#" class="logo">flowers<span>.</span></a>
+
+      <nav>
+        <a href="#home" class="link">Home</a>
+        <a href="#about" class="link">About</a>
+        <a href="#products" class="link">Products</a>
+        <a href="#review" class="link">Reviews</a>
+        <a href="#contact" class="link">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <a class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- header section starts -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh flowers</h3>
+        <span>natural & beautiful flowers</span>
+        <p>
+          Welcome to <b>Blossom flower</b> e-commerce site, where every bloom
+          tells a story! Nestled in the heart of chennai, we specialize in
+          crafting beautiful floral arrangements for every occasion, from joyful
+          celebrations to heartfelt moments.Whether you're looking for a
+          stunning bouquet, unique gifts, or expert advice on plant care, our
+          friendly team is here to help.
+        </p>
+        <a href="#products" class="btn">Shop now</a>
+      </div>
+
+      <!-- <div class="img-container">
+        <div class="image-content">
+          <img src="/media/fimg-1.jpg" alt="">
+        </div>
+      </div> -->
+    </section>
+
+    <!-- header section ends  -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> us</h1>
+
+      <div class="row">
+        <div class="video-container">
+          <video src="/media/flow3.mp4" loop autoplay muted></video>
+          <h3>Best flower sellers</h3>
+        </div>
+
+        <div class="content">
+          <h3>Why choose us?</h3>
+          <p>
+            At [blossom flower] shop, we believe that every occasion deserves a
+            touch of floral magic. Our website offers a seamless shopping
+            experience, featuring a selection of stunning arrangements crafted
+            by skilled florists who are passionate about their art.
+          </p>
+          <p>
+            our dedicated customer support team is always ready to assist you,
+            ensuring your experience is as delightful as the flowers themselves.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- icons section starts -->
+
+    <section class="icons-container">
+      <div class="icons">
+        <img src="/media/f1.avif" alt="" />
+        <div class="info">
+          <h3>free delivery</h3>
+          <span>on all orders</span>
+        </div>
+      </div>
+
+      <div class="icons">
+        <img src="/media/f2.jpg" alt="" />
+        <div class="info">
+          <h3>10 days returns</h3>
+          <span>moneyback guarantee</span>
+        </div>
+      </div>
+
+      <div class="icons">
+        <img src="/media/f4.avif" alt="" />
+        <div class="info">
+          <h3>Offers & Gifts</h3>
+          <span>protected by paypal</span>
+        </div>
+      </div>
+
+      <div class="icons">
+        <img src="/media/f3.avif" alt="" />
+        <div class="info">
+          <h3>Secure payments</h3>
+          <span>protected by paypal</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- product section starts -->
+
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="discounts">-10%</span>
+          <div class="image">
+            <img src="/media/fimg-1.jpg" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>Transvaal daisy</h3>
+            <div class="price">$12.99 <span>$15.99</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-50%</span>
+          <div class="image">
+            <img src="/media/fimg-2.jpg" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>pink gladiolus</h3>
+            <div class="price">$10.99 <span>$20.99</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-20%</span>
+          <div class="image">
+            <img src="/media/fimg-3.jpg" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>rose</h3>
+            <div class="price">$5.99 <span>$18.53</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-2%</span>
+          <div class="image">
+            <img src="/media/fimg-4.avif" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>dhalia</h3>
+            <div class="price">$12.99 <span>$13.99</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-30%</span>
+          <div class="image">
+            <img src="/media/fimg-5.jpg" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>jasmine</h3>
+            <div class="price">$17.81 <span>$20.81</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-9%</span>
+          <div class="image">
+            <img src="/media/fimg-6.avif" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>pethalsue</h3>
+            <div class="price">$18.73 <span>$23.73</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-40%</span>
+          <div class="image">
+            <img src="/media/fimg-7.jpg" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>blossom lotus</h3>
+            <div class="price">$30.32 <span>$40.32</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discounts">-13%</span>
+          <div class="image">
+            <img src="/media/fimg-8.avif" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+
+          <div class="contents">
+            <h3>hibiscuss</h3>
+            <div class="price">$27.11 <span>$32.11</span></div>
+            <button>Buy now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I recently ordered a bouquet from [blossom flower], and I couldn't
+            be happier with the experience! The selection was incredible, with
+            so many beautiful arrangements to choose from. I settled on a custom
+            bouquet for a friend's birthday, and it turned out stunning! The
+            flowers were fresh and vibrant, and my friend couldn't stop raving
+            about them.
+          </p>
+
+          <div class="user">
+            <img src="/media/rimg-1.avif" alt="" />
+
+            <div class="user-info">
+              <h3>john deo</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I recently ordered a bouquet from [blossom flower], and I couldn't
+            be happier with the experience! The selection was incredible, with
+            so many beautiful arrangements to choose from. I settled on a custom
+            bouquet for a friend's birthday, and it turned out stunning! The
+            flowers were fresh and vibrant, and my friend couldn't stop raving
+            about them.
+          </p>
+
+          <div class="user">
+            <img src="/media/rimg-2.avif" alt="" />
+
+            <div class="user-info">
+              <h3>harry</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I recently ordered a bouquet from [blossom flower], and I couldn't
+            be happier with the experience! The selection was incredible, with
+            so many beautiful arrangements to choose from. I settled on a custom
+            bouquet for a friend's birthday, and it turned out stunning! The
+            flowers were fresh and vibrant, and my friend couldn't stop raving
+            about them.
+          </p>
+
+          <div class="user">
+            <img src="/media/rimg-3.avif" alt="" />
+
+            <div class="user-info">
+              <h3>tyron</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span> Contact </span>us</h1>
+
+      <div class="row">
+        <form action="" class="form">
+          <input type="text" placeholder="name" class="box" required />
+          <input type="email" placeholder="email" class="box" required />
+          <input type="number" placeholder="number" class="box" required />
+          <textarea
+            name=""
+            id=""
+            class="box"
+            placeholder="leave your message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+
+        <div class="image">
+          <img src="media/cimg-1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">products</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#">my account</a>
+          <a href="#">my orders</a>
+          <a href="#">my favourite</a>
+        </div>
+
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">india</a>
+          <a href="#">chennai</a>
+          <a href="#">Madurai</a>
+          <a href="#">dindigul</a>
+          <a href="#">kodaikanal</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+91 97-45-9876</a>
+          <a href="#">example@gmail.com</a>
+          <a href="#">chennai, india - 600113</a>
+          <!-- <img src="/media/creditimg-5.avif" alt=""> -->
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span> mr. web developer </span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
